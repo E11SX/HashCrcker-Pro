@@ -1,23 +1,27 @@
 # HashCrcker-Pro
-# 🔐 HashCracker-Pro - Advanced Password Hash Cracking Framework
+## HashCracker-Pro - Advanced Password Hash Cracking Framework
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
+
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 [![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Security](https://img.shields.io/badge/security-ethical-red)](https://github.com/yourusername/hashcracker-pro)
-[![Downloads](https://img.shields.io/badge/downloads-latest-brightgreen)](https://github.com/yourusername/hashcracker-pro/releases)
+
+[![Security](https://img.shields.io/badge/security-ethical-red)](https://github.com/E11SX/hashcracker-pro)
+
+[![Downloads](https://img.shields.io/badge/downloads-latest-brightgreen)](https://github.com/yE11SX/hashcracker-pro/releases)
 
 A professional-grade password hash cracking framework with multiple attack modes, rule-based transformations, session management, and enterprise-ready features. Designed for security professionals and penetration testers.
 
-Features
+#  Features
 
-    Intelligent Hash Detection
+### ```Intelligent Hash Detection```
 - Auto-detects 15+ hash types (MD5, SHA1-512, bcrypt, NTLM, MySQL, etc.)
 - Base64 encoded hash support
 - Regex-based pattern matching
 - Multiple algorithm suggestions
 
-       Multiple Attack Modes
+#### ```Multiple Attack Modes```
 - **Dictionary Attack** - Wordlist-based with rule engine
 - **Brute Force** - Character set permutations
 - **Hybrid Attack** - Dictionary + mutations
@@ -25,7 +29,7 @@ Features
 - **Rainbow Tables** - Pre-computed hash lookup
 - **Multi-Process** - Parallel processing (CPU cores)
 
-        Advanced Rule Engine
+### ```Advanced Rule Engine```
 - 15+ built-in transformation rules
 - Custom rule support
 - Leetspeak conversion
@@ -34,30 +38,30 @@ Features
 - Common prefix/suffix
 - Toggle case variations
 
-       Session Management
+### ```Session Management```
 - Save/restore cracking sessions
 - Resume from any position
 - Progress tracking
 - JSON session storage
 - Auto-save on interrupt
 
-       Comprehensive Reporting
+### ```Comprehensive Reporting```
 - Detailed execution reports
 - Performance metrics (hashes/sec)
 - Success/failure analysis
 - JSON/CSV/HTML export
 - Session logs
 
-       Performance Optimizations
+ ### ```Performance Optimizations```
 - Multi-processing support
 - Memory-efficient streaming
 - Progress bars with tqdm
 - Rate limiting controls
 - Timeout management
 
-## 🚀 Quick Start
+## Quick Start
 
-### Installation
+## Installation
 
 ```bash
 # clone repository
